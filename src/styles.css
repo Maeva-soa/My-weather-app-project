@@ -1,0 +1,74 @@
+h1 {
+  font-size: 55px;
+  font-family: "Otomanopee One", sans-serif;
+  color: #fabe02;
+}
+h2 {
+  font-family: "Yomogi", cursive;
+}
+ul {
+  list-style-type: none;
+  margin-top: 50px;
+  font-family: "Otomanopee One", sans-serif;
+  color: #5f5d5d;
+}
+li {
+  font-size: 20px;
+}
+p {
+  text-align: center;
+  font-family: "Yomogi", cursive;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #5f5d5d;
+}
+
+.container {
+  max-width: 730px;
+  margin-top: 20px;
+  border: 3px solid #72c772;
+  border-radius: 10px;
+}
+.header {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "Yomogi", cursive;
+  font-size: 15px;
+}
+.city-name {
+  border-radius: 15px;
+}
+.city {
+  text-align: center;
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -32px;
+}
+
+.indication-icon {
+  width: 22px;
+}
+.current-weather {
+  margin: 0 20px;
+}
+
+.current-weather-icon {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.weather-icon {
+  width: 70px;
+}
+.next-days {
+  margin-bottom: 30px;
+}
+.git-link {
+  text-align: center;
+  counter-reset: #72c772;
+  margin: 0px auto;
+}

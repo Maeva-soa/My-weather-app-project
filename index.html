@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="col-2" >
+          <span id="current-time"></span>
+          <img
+            src="images/crescent.png"
+            alt="crescent"
+            class="indication-icon"
+          />
+        </div>
+        <div class="col-7">
+          <form >
+          <input
+            type="text"
+            id="city-name"
+            placeholder="Enter a city..."
+            autocomplete="off"
+            class="city-name"
+            
+            
+          />
+
+          <button type="submit" class="btn btn-primary " id = "search-button">
+            Search
+          </button>
+          <button type="button" class="btn btn-success" id = "current-position-button">Current</button>
+          </form>
+        </div>
+
+        <div class="col" id = "current-date"></div>
+      </div>
+      <h2 class="city"> Antananarivo</h2>
+      <div>
+        <img
+          src="images/clouds.png"
+          alt="clouds"
+          class="current-weather-icon"
+        />
+      </div>
+      <div class="row current-weather">
+        <div class="col-8">
+          <h1>11 <span id="current-temperature"></span><a href="#" class = "units" id = "celsius">°C  |</a> <a href="#" class= "units" id="fahrenheit">°F</a>
+          </h1>
+          <br />
+
+          <h2 id = "weather-description">Mostly cloudy</h2>
+        </div>
+        <div class="col-4">
+          <ul>
+            
+            <li  id = "current-humidity">Humidity : 84 %</li>
+            <li id = "current-wind-speed">Wind: 8km/h</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+    <div class="row next-days">
+      <div class="col">
+        <p>Sat</p>
+        <br/>
+        <img src="images/cloudy.png"
+          class="card-img-top weather-icon"
+          alt="cloudy"
+        />
+        <br/>
+        <p >10°</p>
+      </div>
+
+      <div class="col">
+       <p>Sun</p>
+       <br/>
+      
+       
+        <img src="images/cloudy.png"
+          class="card-img-top weather-icon"
+          alt="cloudy"
+        />
+        <br/>
+        <p >9°</p>
+      </div>
+
+      <div class="col">
+        <p>Mon</p>
+        <br/>
+        <img src="images/sun.png"
+          class="card-img-top weather-icon"
+          alt="sunny"
+        />
+        <br/>
+        <p >10°</p>
+      </div>
+
+      <div class="col">
+        <p>Tue</p>
+        <br/>
+        <img src="images/cloudy.png"
+          class="card-img-top weather-icon"
+          alt="cloudy"
+        />
+        <br/>
+        <p >11°</p>
+      </div>
+
+      <div class="col">
+       <p> Wed</p>
+       <br/>
+        <img src="images/sun.png"
+          class="card-img-top weather-icon"
+          alt="sunny"
+        />
+        <br/>
+        <p >10°</p>
+      </div>
+
+      
+
+      
+       <span class=git-link> <a href="https://github.com/Maeva-soa/Weather-app-project">My Github Link</a> </span>
+   
+        
+    </div>   
+  </div>
+        </div>
+      </div>
+    </div>
+    
+<script src="src/index.js"></script>
+  </body>
+</html>
